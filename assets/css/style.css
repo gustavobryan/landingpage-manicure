@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:ital,wght@0,500;1,400&display=swap");
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: white;
+  color: #1e1c2a;
+  width: 100%;
+}
+
+.navigation {
+  align-items: center;
+  background: white;
+  box-shadow: 0 0.1rem 0.5remm #ccc;
+  display: flex;
+  justify-content: space-around;
+  padding: 18px 40px;
+  position: fixed;
+  transition: all 0.5s;
+  width: 100%;
+}
+
+.navigation .logo {
+  color: rgb(247, 89, 184);
+  font-size: 1.7rem;
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.logo span {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.navigation ul {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.navigation ul li a {
+  color: rgba(0, 0, 0, 0.8) k;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.navigation ul li a:hover {
+  color: rgb(247, 89, 184);
+}
+
+.navigation i {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.menu {
+  cursor: pointer;
+  display: none;
+}
+
+.menu .bar {
+  background: rgba(0, 0, 0, 0.605);
+  border-radius: 3px;
+  display: block;
+  height: 3px;
+  margin: 5px auto;
+  transition: all0.3s;
+  width: 28px;
+}
+
+.menu .bar:nth-child(1),
+.menu .bar:nth-child(3) {
+  background-color: rgb(247, 89, 184);
+}
+
+.home {
+  align-items: center;
+  background-color: rgb(248, 216, 228);
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  padding: 0 10%;
+  width: 80%;
+}
+
+.home__text {
+  max-width: 37rem;
+}
+
+.home__text .text__h4 {
+  color: rgb(247, 89, 184);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.home__text .text__h1 {
+  color: rgba(0, 0, 0, 0.683);
+  font-size: 4rem;
+  line-height: 4rem;
+  margin-bottom: 1rem;
+}
+
+.home__text p {
+  font-size: 1.2Frem;
+  color: rgba(0, 0, 0, 0.583);
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.home__btn {
+  background: rgb(247, 89, 184);
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+  padding: 15px 45px;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+.home__btn:hover {
+  background: rgb(210, 36, 140);
+}
+
+.home__img img {
+  width: 100%;
+}
