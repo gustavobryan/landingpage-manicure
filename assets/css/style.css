@@ -64,7 +64,7 @@ body {
 }
 
 .menu .bar {
-  background: rgba(0, 0, 0, 0.605);
+  background: rgba(0, 0, 0, 0.752);
   border-radius: 3px;
   display: block;
   height: 3px;
@@ -149,7 +149,7 @@ body {
   }
 
   .nav__menu {
-    background: white;
+    background: rgb(249, 185, 247);
     flex-direction: column;
     gap: -10px;
     height: 100%;
