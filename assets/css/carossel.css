@@ -43,6 +43,7 @@ p {
 
 .img__sobre {
   box-shadow: 2px 2px 4px rgba(255, 3, 87, 0.334);
+  cursor: pointer;
   height: 300px;
   margin-left: 3rem;
   object-fit: cover;
@@ -51,4 +52,26 @@ p {
 
 .img__sobre:nth-child(3) {
   margin-right: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+.sobre {
+  padding: 0;
+}
+
+.carrossel {
+  margin: 0 ;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+  .container {
+    display: flex;
+    padding: 0;
+  }
+
+  .img__sobre {
+    width:310px ;
+    height: 310px;
+  }
 }

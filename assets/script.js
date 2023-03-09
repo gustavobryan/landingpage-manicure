@@ -17,7 +17,7 @@ function carrossel () {
         idx = 0;
     }
 
-      imgs.style.transform = `translateX(${-idx * 350}px)`;
+      imgs.style.transform = `translateX(${-idx * 360}px)`;
 }
 
 setInterval(carrossel, 2800);

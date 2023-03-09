@@ -7,28 +7,28 @@
 .info {
   display: flex;
   height: 100%;
+  justify-content: space-around;
+  padding: 2rem 0 ;
   width: 100%;
-  justify-content: space-between;
-  align-content: center;
-  align-items: center;
-  justify-items: center;
 }
 
 .info__contato {
   background-color: rgba(240, 248, 255, 0.553);
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.639);
   display: flex;
   flex-direction: column;
-  margin-left: 10%;
-  width: 40%;
+  height: 300px;
+  justify-content: center;
+  width: 80vh;
 }
 
 .info__contato p {
-    height: 100%;
     font-size: 1.3rem;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    padding: 1.5rem;
+    line-height: 0%;
     text-align: left; 
+    padding: .5rem 3.5rem;
 }
 
 .info__contato p strong {
@@ -36,8 +36,44 @@
 }
 
 .mapa {
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.639);
   display: flex;
-  height: 100%;
-  width: 50%;
+  height: 300px;
+  width: 400px;
   margin-left: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  .contato {
+    align-content: center;
+    padding: 2rem 0.4rem;
+  }
+  .info {
+    display: block;
+    padding: 2rem 0;
+    width: 100%; 
+  }
+
+  .info__contato {
+    height: 100%;
+    margin-bottom: 2rem;
+    padding: 2rem 0;
+    width: 100%;
+  }
+
+  .info__contato p {
+    font-size: 1.3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 100%;
+    text-align: left; padding: .5rem 3.5rem;
+  }
+  .mapa {
+    margin-left: 0;
+  }
+
+ .mapa iframe {
+    width: 350;
+    height: 300;
+  }
 }
