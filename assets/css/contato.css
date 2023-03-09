@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:ital,wght@0,500;1,400&display=swap");
+
+.contato {
+  background-color: rgba(253, 186, 230, 0.531);
+  padding: 2rem 4rem;
+}
+.info {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.info__contato {
+  background-color: rgba(240, 248, 255, 0.553);
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  width: 40%;
+}
+
+.info__contato p {
+    height: 100%;
+    font-size: 1.3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    padding: 1.5rem;
+    text-align: left; 
+}
+
+.info__contato p strong {
+    font-weight: bold;
+}
+
+.mapa {
+  display: flex;
+  height: 100%;
+  width: 50%;
+  margin-left: 5%;
+}
