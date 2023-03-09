@@ -23,10 +23,10 @@ Informações de contato são clicáveis, assim como o mapa;
 
 * Agradeço a todos que me ajudaram tirando dúvidas ou dando sugestões! 🍺;
 
-![Imagem cabeçalho](\assets\img\img-readme1)
-![Sessão sobre](\assets\img\img-readme2)
-![Sessão contato](\assets\img\img-readme3)
-![Sessão contato e rodapé](\assets\img\img-readme4)
+![Imagem cabeçalho](/assets/img/img-readme/readme1.jpeg)
+![Sessão sobre](/assets/img/img-readme/readme2.jpeg)
+![Sessão contato](/assets/img/img-readme/readme3.jpeg)
+![Sessão contato e rodapé](/assets/img/img-readme/readme4.jpeg)
 
 
 O projeto pode ser acessado clicando [Aqui](https://landingpagemanicure.netlify.app/)
