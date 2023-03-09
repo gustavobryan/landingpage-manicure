@@ -4,11 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" href="/assets/css/reset.css" />
     <link rel="stylesheet" href="/assets/css/style.css" />
     <link rel="stylesheet" href="/assets/css/footer.css" />
+    <link rel="stylesheet" href="/assets/css/carossel.css" />
     <title>Thaly Nails</title>
   </head>
 
@@ -16,7 +15,8 @@
     <header>
       <nav class="navigation">
         <a href="#" class="logo"
-          >T<span>ha</span>l<span>y</span> N<span>ail</span>s</a>
+          >T<span>ha</span>l<span>y</span> N<span>ail</span>s</a
+        >
         <ul class="nav__menu">
           <li class="nav__item">
             <a href="#">Início</a>
@@ -56,21 +56,29 @@
       </section>
 
       <section class="sobre">
-        <div class="{"slidesToShow": 4, "slidesToScroll": 4}">
-          <div class="img__sobre">
-            <img src="/assets/img/unhas1.jpeg" alt="" />
-          </div>
-          <div class="img__sobre">
-            <img src="/assets/img/unhas2.jpeg" alt="" />
-          </div>
-          <div class="img__sobre">
-            <img src="/assets/img/unhas3.jpeg" alt="" />
-          </div>
-          <div class="img__sobre">
-            <img src="/assets/img/unhas4.jpeg" alt="" />
-          </div>
-          <div class="img__sobre">
-            <img src="/assets/img/unhas5.jpeg" alt="" />
+        <h4>Sobre</h4>
+        <div class="carrossel">
+          <div class="container" id="img">
+            <img
+              class="img__sobre"
+              src="/assets/img/unhas1.jpeg"
+              alt="imagem de unhas"
+            />
+            <img
+              class="img__sobre"
+              src="/assets/img/unhas2.jpeg"
+              alt="imagem de unhas"
+            />
+            <img
+              class="img__sobre"
+              src="/assets/img/unhas4.jpeg"
+              alt="imagem de unhas"
+            />
+            <img
+              class="img__sobree"
+              src="/assets/img/unhas5.jpeg"
+              alt="imagem de unhas"
+            />
           </div>
         </div>
       </section>
@@ -98,6 +106,5 @@
       </section>
     </footer>
     <script src="/assets/script.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   </body>
 </html>
